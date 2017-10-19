@@ -1,0 +1,49 @@
+[
+{
+    "model": "timeline.timeline",
+    "pk": 1,
+    "fields": {
+        "last_modified_date": "2016-12-05T16:47:03.008Z",
+        "title": "News 1",
+        "content": "<p>News 1 content</p>",
+        "tag": "news, timeline",
+        "timestamp": "1390-12-05 11:45:00",
+        "category": 1,
+        "candidate_tag": [
+            2,
+            3
+        ]
+    }
+},
+{
+    "model": "timeline.timeline",
+    "pk": 2,
+    "fields": {
+        "last_modified_date": "2016-12-05T16:47:51.892Z",
+        "title": "\u062e\u0628\u0631 \u06f2",
+        "content": "<p>\u062e\u0628\u0631 \u062f\u0631\u0628\u0627\u0631\u0647 \u0645\u062d\u0645\u0648\u062f\u06cc&nbsp;</p>",
+        "tag": "\u062e\u0628\u0631 , \u0645\u062d\u0645\u0648\u062f\u06cc",
+        "timestamp": "1390-12-02 07:45:00",
+        "category": 2,
+        "candidate_tag": [
+            2
+        ]
+    }
+},
+{
+    "model": "timeline.timeline",
+    "pk": 3,
+    "fields": {
+        "last_modified_date": "2016-12-05T16:48:39.173Z",
+        "title": "test news",
+        "content": "<p>Test news content</p>",
+        "tag": "test, news",
+        "timestamp": "1390-11-25 17:50:00",
+        "category": 2,
+        "candidate_tag": [
+            1,
+            3
+        ]
+    }
+}
+]

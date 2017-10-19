@@ -1,0 +1,126 @@
+[
+{
+    "model": "candidate.party",
+    "pk": 1,
+    "fields": {
+        "last_modified_date": "2016-12-02T21:06:40.769Z",
+        "title": "\u0627\u0635\u0644\u0627\u062d \u0637\u0644\u0628",
+        "content": "<p>\u0627\u0635\u0644\u0627\u062d \u0637\u0644\u0628 \u06af\u0631\u0648\u0647 \u062c\u0627\u0644\u0628\u0647&nbsp;</p>",
+        "tag": "\u0627\u0635\u0644\u0627\u062d , \u0637\u0644\u0628",
+        "logo": "candidate/logos/elahtalab_SyeaWMP.jpg",
+        "link": "https://fa.wikipedia.org/wiki/%D8%A7%D8%B5%D9%84%D8%A7%D8%AD%E2%80%8C%D8%B7%D9%84%D8%A8%D8%A7%D9%86_%D8%A7%D9%81%D8%BA%D8%A7%D9%86%D8%B3%D8%AA%D8%A7%D9%86"
+    }
+},
+{
+    "model": "candidate.party",
+    "pk": 2,
+    "fields": {
+        "last_modified_date": "2016-12-05T16:03:38.405Z",
+        "title": "\u062c\u0628\u0647\u0647 \u067e\u0627\u06cc\u062f\u0627\u0631\u06cc \u0627\u0646\u0642\u0644\u0627\u0628 \u0627\u0633\u0644\u0627\u0645\u06cc",
+        "content": "<h1>\u062c\u0628\u0647\u0647 \u067e\u0627\u06cc\u062f\u0627\u0631\u06cc \u0627\u0646\u0642\u0644\u0627\u0628 \u0627\u0633\u0644\u0627\u0645\u06cc \u062e\u06cc\u0644\u06cc \u062c\u0627\u0644\u0628\u0647&nbsp;</h1>",
+        "tag": "\u062c\u0628\u0647\u0647, \u067e\u0627\u06cc\u062f\u0627\u0631\u06cc ,\u0627\u0646\u0642\u0644\u0627\u0628, \u0627\u0633\u0644\u0627\u0645\u06cc",
+        "logo": "candidate/logos/jebheh.jpg",
+        "link": "https://fa.wikipedia.org/wiki/%D8%AC%D8%A8%D9%87%D9%87_%D9%BE%D8%A7%DB%8C%D8%AF%D8%A7%D8%B1%DB%8C_%D8%A7%D9%86%D9%82%D9%84%D8%A7%D8%A8_%D8%A7%D8%B3%D9%84%D8%A7%D9%85%DB%8C"
+    }
+},
+{
+    "model": "candidate.party",
+    "pk": 3,
+    "fields": {
+        "last_modified_date": "2016-12-05T16:04:32.747Z",
+        "title": "test party",
+        "content": "<p>Test Party content</p>",
+        "tag": "test, party",
+        "logo": "candidate/logos/firetweet-01.png",
+        "link": "https://example.com/test_party"
+    }
+},
+{
+    "model": "candidate.candidate",
+    "pk": 1,
+    "fields": {
+        "last_modified_date": "2016-12-05T16:54:21.328Z",
+        "title": "\u062d\u0633\u0646 \u0631\u0648\u062d\u0627\u0646\u06cc",
+        "content": "<p>\u062d\u0633\u0646 \u0631\u0648\u062d\u0627\u0646\u06cc \u0627\u0648\u0644\u06cc\u0646&nbsp;<a href=\"https://fa.wikipedia.org/wiki/%D8%B1%D8%A6%DB%8C%D8%B3_%D8%AC%D9%85%D9%87%D9%88%D8%B1\" title=\"\u0631\u0626\u06cc\u0633 \u062c\u0645\u0647\u0648\u0631\">\u0631\u0626\u06cc\u0633 \u062c\u0645\u0647\u0648\u0631</a>&nbsp;\u0627\u06cc\u0631\u0627\u0646 \u0627\u0633\u062a \u06a9\u0647 \u0628\u0639\u062f \u0627\u0632 \u0627\u0646\u0642\u0644\u0627\u0628 \u0627\u06cc\u0631\u0627\u0646\u060c \u0628\u0627 \u0631\u0626\u06cc\u0633 \u062c\u0645\u0647\u0648\u0631&nbsp;<a href=\"https://fa.wikipedia.org/wiki/%D8%A7%DB%8C%D8%A7%D9%84%D8%A7%D8%AA_%D9%85%D8%AA%D8%AD%D8%AF%D9%87_%D8%A2%D9%85%D8%B1%DB%8C%DA%A9%D8%A7\" title=\"\u0627\u06cc\u0627\u0644\u0627\u062a \u0645\u062a\u062d\u062f\u0647 \u0622\u0645\u0631\u06cc\u06a9\u0627\">\u0627\u06cc\u0627\u0644\u0627\u062a \u0645\u062a\u062d\u062f\u0647 \u0622\u0645\u0631\u06cc\u06a9\u0627</a>\u060c \u0627\u0631\u062a\u0628\u0627\u0637 \u0628\u0631\u0642\u0631\u0627\u0631 \u0646\u0645\u0648\u062f</p>",
+        "tag": "\u062d\u0633\u0646 ,\u0631\u0648\u062d\u0627\u0646\u06cc",
+        "last_name": "\u0631\u0648\u062d\u0627\u0646\u06cc",
+        "photo": "candidate/photos/Hassan_Rouhani_in_Saadabad.jpg",
+        "bio": "<p>\u062d\u0633\u0646 \u0631\u0648\u062d\u0627\u0646\u06cc \u062f\u0631 \u0633\u0627\u0644 \u06f1\u06f3\u06f2\u06f7 \u062f\u0631&nbsp;<a href=\"https://fa.wikipedia.org/wiki/%D8%B4%D9%87%D8%B1%D8%B3%D8%AA%D8%A7%D9%86_%D8%B3%D8%B1%D8%AE%D9%87\" title=\"\u0634\u0647\u0631\u0633\u062a\u0627\u0646 \u0633\u0631\u062e\u0647\">\u0634\u0647\u0631\u0633\u062a\u0627\u0646 \u0633\u0631\u062e\u0647</a>&nbsp;\u062f\u0631&nbsp;<a href=\"https://fa.wikipedia.org/wiki/%D8%A7%D8%B3%D8%AA%D8%A7%D9%86_%D8%B3%D9%85%D9%86%D8%A7%D9%86\" title=\"\u0627\u0633\u062a\u0627\u0646 \u0633\u0645\u0646\u0627\u0646\">\u0627\u0633\u062a\u0627\u0646 \u0633\u0645\u0646\u0627\u0646</a>&nbsp;\u0632\u0627\u062f\u0647 \u0634\u062f.</p>",
+        "political_background": "<p>\u0641\u0631\u062f\u0627 \u06a9\u0647 \u0622\u06cc\u062a&zwnj;\u0627\u0644\u0644\u0647 \u0634\u062f\u06cc\u062f\u060c \u0645\u0631\u062f\u0645 \u0634\u0645\u0627 \u0631\u0627 \u0622\u06cc\u062a&zwnj;\u0627\u0644\u0644\u0647 \u0641\u0631\u06cc\u062f\u0648\u0646 \u0628\u062e\u0648\u0627\u0646\u0646\u062f</p>",
+        "platform": "<p dir=\"rtl\">\u062f\u06cc\u062f\u06af\u0627\u0647&zwnj;\u0647\u0627\u06cc \u062d\u0633\u0646 \u0631\u0648\u062d\u0627\u0646\u06cc \u062f\u0631 \u062e\u0635\u0648\u0635 \u0633\u06cc\u0627\u0633\u062a \u062f\u0627\u062e\u0644\u06cc\u061b \u062a\u0623\u06a9\u06cc\u062f \u0628\u0631 \u0641\u0631\u0627\u062c\u0646\u0627\u062d\u06cc \u0628\u0648\u062f\u0646 \u0648 \u0634\u0627\u06cc\u0633\u062a\u0647&zwnj;\u0633\u0627\u0644\u0627\u0631 \u0645\u062d\u0648\u0631\u06cc \u06a9\u0627\u0628\u06cc\u0646\u0647\u060c \u0639\u062f\u0645 \u062a\u0639\u0647\u062f \u062f\u0648\u0644\u062a \u0628\u0647 \u0627\u062d\u0632\u0627\u0628 \u0648 \u062c\u0646\u0627\u062d&zwnj;\u0647\u0627\u06cc \u0645\u062e\u062a\u0644\u0641 \u0648 \u0648\u0627\u0645&zwnj;\u062f\u0627\u0631 \u0646\u0628\u0648\u062f\u0646 \u0628\u0647 \u0622\u0646\u0647\u0627\u060c \u062a\u062b\u0628\u06cc\u062a \u062c\u0627\u0645\u0639\u0647 \u0628\u0647 \u0633\u0645\u062a \u0631\u0633\u0627\u0646\u0647&zwnj;\u0647\u0627\u06cc \u062f\u0627\u062e\u0644\u06cc \u0648 \u062e\u0648\u0634&zwnj;\u0622\u0645\u062f\u06af\u0648\u06cc\u06cc \u0628\u0647 \u062a\u06a9\u062b\u0631 \u0648 \u062a\u0646\u0648\u0639 \u062f\u06cc\u062f\u06af\u0627\u0647&zwnj;\u0647\u0627 \u0648 \u062f\u0648\u0631\u06cc \u06af\u0632\u06cc\u062f\u0646 \u0627\u0632 \u0647\u0631 \u06af\u0648\u0646\u0647 \u062e\u0648\u062f\u0633\u0631\u06cc\u061b \u0627\u0641\u0631\u0627\u0637 \u0648 \u062a\u0641\u0631\u06cc\u0637 \u0645\u06cc&zwnj;\u0628\u0627\u0634\u062f</p>",
+        "website": "https://fa.wikipedia.org/wiki/%D8%AD%D8%B3%D9%86_%D8%B1%D9%88%D8%AD%D8%A7%D9%86%DB%8C",
+        "email": "fereidoon@rouhani.com",
+        "telephone": "98217656545433",
+        "fax": "98217656545434",
+        "facebook": "https://facebook.com/rouhani",
+        "twitter": "@rouhani_twitter",
+        "instagram": "@rouhani_insta",
+        "telegram": "@rouhani_telegram",
+        "status": true,
+        "status_text": "\u062d\u0633\u0646 \u0627\u06cc\u0632 \u0627\u06a9\u062a\u06cc\u0648",
+        "party": [
+            1,
+            3
+        ]
+    }
+},
+{
+    "model": "candidate.candidate",
+    "pk": 2,
+    "fields": {
+        "last_modified_date": "2016-12-05T16:55:02.709Z",
+        "title": "Mahmoud Ahmadinejad",
+        "content": "",
+        "tag": "Mahmoud, Ahmadinejad",
+        "last_name": "Ahmadinejad",
+        "photo": "candidate/photos/Mahmoud_Ahmadinejad_crop.jpg",
+        "bio": "",
+        "political_background": "<p>After the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Islamic_Revolution\" title=\"Islamic Revolution\">Islamic Revolution</a>, Ahmadinejad became a member of the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Office_for_Strengthening_Unity\" title=\"Office for Strengthening Unity\">Office for Strengthening Unity</a>,<sup><a href=\"https://en.wikipedia.org/wiki/Mahmoud_Ahmadinejad#cite_note-bioIC-15\">[15]</a></sup>&nbsp;an organization developed to prevent students from sympathizing or allying with the budding&nbsp;<a href=\"https://en.wikipedia.org/wiki/People%27s_Mujahedin_of_Iran\" title=\"People's Mujahedin of Iran\">Mojahedin-e Khalq</a>.<sup><a href=\"https://en.wikipedia.org/wiki/Mahmoud_Ahmadinejad#cite_note-bioIC-15\">[15]</a></sup></p>",
+        "platform": "<p>Ahmadinejad suffered a defeat in&nbsp;<a href=\"https://en.wikipedia.org/wiki/Iranian_legislative_election,_2012\" title=\"Iranian legislative election, 2012\">March/May 2012 parliamentary elections</a>&nbsp;with Ayatollah Khamenei&#39;s &quot;Principalist&quot; allies winning about three quarters of the parliaments 290 seats, and Ahmadinejad supporters far fewer</p>",
+        "website": "https://en.wikipedia.org/wiki/Mahmoud_Ahmadinejad",
+        "email": "mahmoud@ahmadinejad.com",
+        "telephone": "9821765587568",
+        "fax": "9821765587569",
+        "facebook": "http://facebook.com/mahmoud",
+        "twitter": "@mahmoud_twitter",
+        "instagram": "@mahmoud_insta",
+        "telegram": "@mahmoud_telegram",
+        "status": true,
+        "status_text": "\u0631\u0626\u06cc\u0633 \u062c\u0645\u0647\u0648\u0631 \u062e\u0646\u062f\u0647 \u062f\u0627\u0631",
+        "party": [
+            2,
+            3
+        ]
+    }
+},
+{
+    "model": "candidate.candidate",
+    "pk": 3,
+    "fields": {
+        "last_modified_date": "2016-12-05T16:55:19.032Z",
+        "title": "test candidate",
+        "content": "<p>Test candidate content</p>",
+        "tag": "test, candidate",
+        "last_name": "Candidate",
+        "photo": "candidate/photos/tddy.jpg",
+        "bio": "<p>test candidate&#39;s bio</p>",
+        "political_background": "<p>Test candidate&#39;s political history</p>",
+        "platform": "<p>Test candidate&#39;s platform</p>",
+        "website": "www.testcandidate.com",
+        "email": "test@candidate.com",
+        "telephone": "982108754688678",
+        "fax": "982108754688679",
+        "facebook": "http://facebook.com/test_candidate",
+        "twitter": "@TestCandidate_Twitter",
+        "instagram": "@TestCandidate_Insta",
+        "telegram": "@TestCandidate_Telegram",
+        "status": true,
+        "status_text": "test candidate status text",
+        "party": [
+            1,
+            2,
+            3
+        ]
+    }
+}
+]

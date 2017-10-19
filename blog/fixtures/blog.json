@@ -1,0 +1,132 @@
+[
+{
+    "model": "blog.category",
+    "pk": 1,
+    "fields": {
+        "last_modified_date": "2016-12-02T19:33:07.271Z",
+        "name": "Educational",
+        "logo": "blog/logos/education-logo-23746383.jpg"
+    }
+},
+{
+    "model": "blog.category",
+    "pk": 2,
+    "fields": {
+        "last_modified_date": "2016-12-02T19:33:18.215Z",
+        "name": "Analysis",
+        "logo": "blog/logos/71513-200.png"
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$30000$nD3AUlm8Lc6u$NI/X6XofUut12TZeS+M3+uyKxXqrPewXc0WugTwWWrI=",
+        "last_login": "2016-12-06T16:59:49.546Z",
+        "is_superuser": true,
+        "username": "ewatch",
+        "first_name": "",
+        "last_name": "",
+        "email": "ewatch@ewatch.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2016-12-06T16:58:43.228Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "blog.post",
+    "pk": 1,
+    "fields": {
+        "last_modified_date": "2016-12-05T16:49:07.613Z",
+        "title": "This is a post title",
+        "content": "<p>This is the content of the same post</p>",
+        "tag": "Post, Content",
+        "published_date": "1390-12-05 11:00:00",
+        "category": 1,
+        "summary": "<p>This is the summary of the post</p>",
+        "slug": "post",
+        "author": 1,
+        "status": "p",
+        "comment_allowed": true,
+        "candidate_tag": [
+            3
+        ]
+    }
+},
+{
+    "model": "blog.post",
+    "pk": 2,
+    "fields": {
+        "last_modified_date": "2016-12-05T16:48:59.037Z",
+        "title": "\u06cc\u0647 \u067e\u0633\u062a \u0645\u062e\u0635\u0648\u0635",
+        "content": "<p>\u0627\u06cc\u0646 \u06cc\u0647 \u067e\u0633\u062a \u0645\u062e\u0635\u0648\u0635. \u0628\u0646\u0627\u0628\u0631\u06cc\u0646 &nbsp;\u062c\u062f\u06cc \u0628\u06af\u06cc\u0631\u06cc\u0646&nbsp;</p>",
+        "tag": "\u067e\u0633\u062a, \u0645\u062e\u0635\u0648\u0635",
+        "published_date": "1390-12-05 11:00:00",
+        "category": 2,
+        "summary": "<p>\u062e\u0644\u0627\u0635\u0647 \u067e\u0633\u062a \u0645\u062e\u0635\u0648\u0635&nbsp;</p>",
+        "slug": "post_makhsoos",
+        "author": 1,
+        "status": "p",
+        "comment_allowed": true,
+        "candidate_tag": [
+            1,
+            3
+        ]
+    }
+},
+{
+    "model": "blog.post",
+    "pk": 3,
+    "fields": {
+        "last_modified_date": "2016-12-06T17:11:06.804Z",
+        "title": "A post",
+        "content": "<p>This is a test post</p>",
+        "tag": "post",
+        "published_date": "1390-12-06 12:10:00",
+        "category": 1,
+        "summary": "",
+        "slug": "post",
+        "author": 1,
+        "status": "p",
+        "comment_allowed": false,
+        "candidate_tag": [
+            1
+        ]
+    }
+},
+{
+    "model": "blog.post",
+    "pk": 4,
+    "fields": {
+        "last_modified_date": "2016-12-06T17:53:47.941Z",
+        "title": "Relevant Post",
+        "content": "<p>Relevant Post Content</p>",
+        "tag": "Relevant, post, content",
+        "published_date": "1390-12-06 12:55:00",
+        "category": 1,
+        "summary": "<p>Relevant Summary Test</p>",
+        "slug": "relevant",
+        "author": 1,
+        "status": "p",
+        "comment_allowed": true,
+        "candidate_tag": [
+            2
+        ]
+    }
+},
+{
+    "model": "blog.comment",
+    "pk": 1,
+    "fields": {
+        "comment_date": "1390-12-08 13:14:00.076",
+        "email": "tester@example.com",
+        "name": "Mr. Tester",
+        "title": "To Test Comments",
+        "content": "I am testing the comments",
+        "approved": true,
+        "post": 1
+    }
+}
+]

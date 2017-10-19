@@ -1,0 +1,234 @@
+[
+{
+    "model": "auth.group",
+    "pk": 1,
+    "fields": {
+        "name": "admins",
+        "permissions": [
+            [
+                "add_user",
+                "auth",
+                "user"
+            ],
+            [
+                "change_user",
+                "auth",
+                "user"
+            ],
+            [
+                "add_category",
+                "blog",
+                "category"
+            ],
+            [
+                "change_category",
+                "blog",
+                "category"
+            ],
+            [
+                "delete_category",
+                "blog",
+                "category"
+            ],
+            [
+                "change_comment",
+                "blog",
+                "comment"
+            ],
+            [
+                "delete_comment",
+                "blog",
+                "comment"
+            ],
+            [
+                "add_post",
+                "blog",
+                "post"
+            ],
+            [
+                "change_post",
+                "blog",
+                "post"
+            ],
+            [
+                "delete_post",
+                "blog",
+                "post"
+            ],
+            [
+                "add_candidate",
+                "candidate",
+                "candidate"
+            ],
+            [
+                "change_candidate",
+                "candidate",
+                "candidate"
+            ],
+            [
+                "delete_candidate",
+                "candidate",
+                "candidate"
+            ],
+            [
+                "add_party",
+                "candidate",
+                "party"
+            ],
+            [
+                "change_party",
+                "candidate",
+                "party"
+            ],
+            [
+                "delete_party",
+                "candidate",
+                "party"
+            ],
+            [
+                "add_text",
+                "preferences",
+                "text"
+            ],
+            [
+                "change_text",
+                "preferences",
+                "text"
+            ],
+            [
+                "delete_text",
+                "preferences",
+                "text"
+            ],
+            [
+                "add_choice",
+                "questionnaire",
+                "choice"
+            ],
+            [
+                "change_choice",
+                "questionnaire",
+                "choice"
+            ],
+            [
+                "delete_choice",
+                "questionnaire",
+                "choice"
+            ],
+            [
+                "delete_participant",
+                "questionnaire",
+                "participant"
+            ],
+            [
+                "add_question",
+                "questionnaire",
+                "question"
+            ],
+            [
+                "change_question",
+                "questionnaire",
+                "question"
+            ],
+            [
+                "delete_question",
+                "questionnaire",
+                "question"
+            ],
+            [
+                "add_questionnaire",
+                "questionnaire",
+                "questionnaire"
+            ],
+            [
+                "change_questionnaire",
+                "questionnaire",
+                "questionnaire"
+            ],
+            [
+                "delete_questionnaire",
+                "questionnaire",
+                "questionnaire"
+            ],
+            [
+                "add_questionset",
+                "questionnaire",
+                "questionset"
+            ],
+            [
+                "change_questionset",
+                "questionnaire",
+                "questionset"
+            ],
+            [
+                "delete_questionset",
+                "questionnaire",
+                "questionset"
+            ],
+            [
+                "delete_response",
+                "questionnaire",
+                "response"
+            ],
+            [
+                "add_timeline",
+                "timeline",
+                "timeline"
+            ],
+            [
+                "change_timeline",
+                "timeline",
+                "timeline"
+            ],
+            [
+                "delete_timeline",
+                "timeline",
+                "timeline"
+            ]
+        ]
+    }
+},
+{
+    "model": "auth.group",
+    "pk": 2,
+    "fields": {
+        "name": "editors",
+        "permissions": [
+            [
+                "add_post",
+                "blog",
+                "post"
+            ],
+            [
+                "change_post",
+                "blog",
+                "post"
+            ],
+            [
+                "delete_post",
+                "blog",
+                "post"
+            ]
+        ]
+    }
+},
+{
+    "model": "auth.group",
+    "pk": 3,
+    "fields": {
+        "name": "authors",
+        "permissions": [
+            [
+                "add_post",
+                "blog",
+                "post"
+            ],
+            [
+                "change_post",
+                "blog",
+                "post"
+            ]
+        ]
+    }
+}
+]

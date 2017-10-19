@@ -1,0 +1,45 @@
+logs/*
+!.gitkeep
+node_modules/
+npm-debug.log
+tmp
+.idea
+.DS_Store
+angular-phonecat-snapshots
+bower_components/
+build/
+STATIC/serve
+media/*
+environment
+*.mo
+*.swp
+
+# cache directories
+Thumbs.db
+*.DS_Store
+*.empty
+
+# Python
+*.pyc
+
+
+# sass cache files
+*.sass-cache
+
+# mac deployment helpers
+switch
+index
+
+# vagrant - ansible
+site.retry
+*.log
+.vagrant/
+Vagrantfile
+
+# Non committable files
+local_settings.py
+blog_settings.py
+candidate_settings.py
+timeline_settings.py
+env.sh
+*.zip

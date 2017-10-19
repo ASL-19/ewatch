@@ -1,0 +1,14 @@
+[
+{
+    "model": "preferences.text",
+    "pk": 1,
+    "fields": {
+        "language": "en",
+        "last_modified": "2016-12-02T20:30:41.427Z",
+        "about": "<p>About Election Watch</p>",
+        "contact_email": "ewatch@ewatch.com",
+        "privacy_policy": "<p>Election Watch privacy policy</p>",
+        "terms_of_service": "<p>Election Watch terms of Service</p>"
+    }
+}
+]
